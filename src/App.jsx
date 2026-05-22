@@ -64,7 +64,7 @@ const App = () => {
         "10 Days – NPR 5000",
         "2 Weeks – NPR 7000"
       ],
-      nextSession: "Not available right now",
+      nextSession: "Available right now",
       sessionType: "1-on-1 Personal Class"
     },
     {
