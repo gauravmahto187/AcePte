@@ -26,8 +26,8 @@ const App = () => {
         "High-quality templates and practical resources for each section.",
         "Classes run Monday to Friday for 30 days."
       ],
-      nextSession: "6:00 – 7:00 PM (1st June)",
-      sessionType: "Full Course In-Depth"
+      // nextSession: "6:00 – 7:00 PM (1st June)",
+      // sessionType: "Full Course In-Depth"
     },
     
     // {
