@@ -111,25 +111,18 @@ const App = () => {
       </section> */}
 
 <section className="relative h-30 md:h-48 mb-0 overflow-hidden">
-  {/* Background Image */}
+  {/* Background image with a clean cover fit */}
   <div
     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-    style={{ backgroundImage: "url('/hero.png')" }}
+    style={{
+      backgroundImage: "url('/images/new.jpg')",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center'
+    }}
   ></div>
 
-  {/* Dark overlay for better contrast */}
-  <div className="absolute inset-0 bg-blue-900/55"></div>
-  {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-blue-500/30"></div> */}
-
-
-  {/* Text */}
-  <div className="relative z-10 flex items-center justify-center h-full">
-    <div className="text-center">
-      <h1 className="text-3xl md:text-5xl font-bold text-white font-['Poppins'] tracking-wide mb-4">
-        Courses
-      </h1>
-    </div>
-  </div>
+  {/* Soft overlay for readability */}
+  <div className="absolute inset-0 bg-blue-900/30"></div>
 </section>
 
 
