@@ -68,11 +68,11 @@ const App = () => {
       sessionType: "1-on-1 Personal Class"
     },
     {
-      title: "Crash Course - 10 Days(Small Batch)",
-      price: "NPR 3500",
-      duration: "10 Days",
+      title: "Intensive Crash Course - 14 Days (Small Batch)",
+      price: "NPR 5000",
+      duration: "14 Days",
       focus: "A fast-track PTE preparation course focused on key exam strategies, guided practice, and score-boosting techniques to help you improve quickly in a short time.",
-      idealFor: "Students with basic English proficiency who want fast, focused preparation for the PTE exam and practical strategies to improve their score in a short time.",
+      idealFor: "Students with basic English proficiency who want focused PTE preparation, practical exam strategies, and personalized guidance to improve their performance.",
       features: [
         "Small batch training (Maximum 5 students)",
         "Focused practice on key PTE question types",
@@ -81,7 +81,7 @@ const App = () => {
         "Proven strategies and high-scoring answer templates",
         "Time-management techniques for the actual exam"
       ],
-      nextSession: "9:00 – 10:00 AM (Available) \n 4:00 – 5:00 PM (Not Available)",
+      nextSession: " Flexible (based on batch availability)",
       startDate: "Based on student availability",
       sessionType: "Group Class of 5"
     }
